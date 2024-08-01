@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Stylish&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-style: bolder;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: x-large;
+}
+
+.nav {
+    background-color: transparent;
+    /* height: 5vh;
+    color: white;
+    padding: 2vh;
+    /* justify-content: center;*/
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-style: bolder; */
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 43px;
+    /* font-size: 16px;  */
+}
+
+/*  .hi {
+    padding-left: 70vw;
+}  */
+
+ul a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
+
+/* .container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 28vh;
+    top: 45%;
+    color: white;
+    font-size: 35px;
+} */
+
+.container {
+    padding-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(15, 13, 13);
+    height: 45vh;
+    width: 30vw;
+    font-size: 35px;
+}
+
+.btn {
+    position: absolute;
+    /*  left: 77vh; */
+    padding: 12px;
+    border-radius: 14px;
+    background-color: red;
+    color: white;
+}
+
+.bt {
+    padding: 12px 35px;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: x-large;
+    color: rgb(24, 6, 6);
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.reg-bt {
+    margin-left: 20px;
+}
+
+.bt {
+    background-color: rgb(165, 173, 180);
+}
+
+.link:hover,
+.active {
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+/* .text {
+  position: absolute;
+  z-index: 1;
+} */
+.bg-img {
+    background-image: url(img/bg-1.png);
+    height: 45vh;
+    width: 100vw;
+
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text {
+    padding: 20px;
+    width: 36vw;
+    height: 45vh;
+
+    /* position: absolute; 
+  z-index: 0; */
+}
+
+.container-text h2 {
+    font-size: 48px;
+    height: 34vh;
+    padding: 35px;
+    font-family: "Stylish", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.buttons {
+    margin: auto;
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.btnn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-style: bolder;
+    border: 2px solid rgb(6, 6, 6);
+    font-weight: 600;
+}
+
+.btnn:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.boxes {
+    background-image: url(img/white-painted-wall-texture-background.jpg);
+    padding: 20px 20px;
+    background-size: 100vw;
+    gap: 9vw;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    background-color: rgb(202, 198, 198);
+    /*  justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 18vh;
+    width: 21vw;
+    color: white;
+    font-size: 38px;
+   /*  font-family: "Poppins", sans-serif;
+    font-style: bolder; */
+    font-weight: 700;
+}
+.box1{
+    background-color: rgb(10, 169, 63);
+}
+.box2{
+    background-color: rgb(31, 52, 109);
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: rgb(208, 208, 53);
+}
+.learn{
+    width:100vw;
+    height:60vh;
+    display: flex;
+    
+    justify-content: center;
+   align-items: center; 
+    
+}
+.learn h1{
+    font-size: 42px;
+}
+.img1{
+    background-image: url(img/section-bg.jpg);
+    height: 485px;
+   
+}
+.img2{
+    background-image: url(img/section2.png);
+}
+section h1{
+    font-size: 42px;
+    text-align: center;
+    padding:20px 0 35px 0;
+}
+
+
+
+/* FOOTER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+footer{
+    background-color: #841111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 2.5em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+         /*Counter*/
+
+.boxes{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.counters{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter-wrapper{
+    width: 28%;
+    height: 15rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    transition: .3s ease-in-out;
+}
+.counter-wrapper:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    filter: saturate(300%);
+    box-shadow: 0 .2rem .2rem #0006;
+}
+
+
+.counter-wrapper:nth-child(1){
+    background: linear-gradient(45deg, cyan, blue);
+
+}
+.counter-wrapper:nth-child(2){
+    background: linear-gradient(45deg, mediumspringgreen, green);
+
+}
+.counter-icon{
+    font-size: 3.5rem;
+}
+.counter-info{
+    color: #fff;
+    text-shadow: 1px 1px 1px #0007;
+}
+.counter-info h1.counter{
+    font: normal 5.8rem sans-serif;
+}
+.counter-info p{
+    font: normal 2.1rem sans-serif;
+    margin-top: .4rem;
+}
+p{
+    font-size: 35px;
+} 
